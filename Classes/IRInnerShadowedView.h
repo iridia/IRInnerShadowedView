@@ -20,6 +20,9 @@
 	CGSize irShadowOffset;
 	UIColor *irShadowColor;
 
+	CGFloat irInnerBorderWidth;
+	UIColor *irInnerBorderColor;
+
 }
 
 
@@ -29,6 +32,9 @@
 @property (assign) CGFloat irShadowSpread;
 @property (assign) CGSize irShadowOffset;
 @property (retain) UIColor *irShadowColor;
+
+@property (assign) CGFloat irInnerBorderWidth;
+@property (retain) UIColor *irInnerBorderColor;
 
 
 
