@@ -1,0 +1,3 @@
+[submodule "Dependencies/CGGeometry-IRFittingAdditions"]
+	path = Dependencies/CGGeometry-IRFittingAdditions
+	url = git://github.com/iridia/CGGeometry-IRFittingAdditions.git
