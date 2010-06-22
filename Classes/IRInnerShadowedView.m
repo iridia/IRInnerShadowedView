@@ -137,7 +137,7 @@
 		(0.5f * self.irInnerBorderWidth), 
 		(0.5f * self.irInnerBorderWidth)
 		
-	) cornerRadius:MAX(0.0f, (CGFloat)(self.layer.cornerRadius - self.irInnerBorderWidth))].CGPath;
+	) cornerRadius:MAX(0.0f, (CGFloat)(self.layer.cornerRadius - 0.5 * self.irInnerBorderWidth))].CGPath;
 
 	
 	CGContextSetLineWidth(context, self.irInnerBorderWidth);
